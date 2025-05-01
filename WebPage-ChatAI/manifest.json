@@ -1,0 +1,11 @@
+{
+    "name": "WebPaage ChatAI",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "A Chrome extension that uses AI to answer questions about the current webpage.",
+    "permissions": ["tabs", "scripting", "sidePanel", "storage"],
+    "host_permissions": ["http://*/*", "https://*/*"],
+    "side_panel": {
+      "default_path": "sidepanel/index.html"
+    }
+}
