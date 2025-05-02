@@ -1,0 +1,51 @@
+#sidebar
+{
+    height: 96vh;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+#sidebar #message-box 
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: #646464;
+}
+
+#sidebar #sidebar-messages
+{
+    height: 70vh;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #353535;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#sidebar #message-box  input[type="text"]
+{   
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #535353;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#sidebar .send-btn
+{
+    background-color: #646464; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px ;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
