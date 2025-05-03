@@ -1,4 +1,4 @@
-const GeminiGenerator = require("./Agents/Generator");
+import GeminiGenerator from "./Agents/Generator.js";
 
 async function main() {
     const generator = new GeminiGenerator();

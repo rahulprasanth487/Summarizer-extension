@@ -1,11 +1,6 @@
-const path = require('path');
-const envPath = path.resolve(__dirname, './.env');
-
-require('dotenv').config({ path: envPath });
-
 class GeminiGenerator {
     constructor() {
-        this.apiKey = process.env.GEMINI_API_KEY;
+        this.apiKey = "AIzaSyBfwKmlLMxII1DtLn2IZP8gq5V42eo3QUs";
         if (!this.apiKey) {
             throw new Error('GEMINI_API_KEY environment variable is not set');
         }
@@ -55,4 +50,4 @@ class GeminiGenerator {
     }
 }
 
-module.exports = GeminiGenerator;
+export default GeminiGenerator;

@@ -22,12 +22,7 @@ cd WebPage-ChatAI
 npm install
 ```
 
-3. Create a `.env` file in the `Agents` directory with your Gemini API key:
-```
-GEMINI_API_KEY=your_api_key_here
-```
-
-4. Load the extension in Chrome:
+3. Load the extension in Chrome:
    - Open Chrome and go to `chrome://extensions/`
    - Enable "Developer mode"
    - Click "Load unpacked"
