@@ -127,3 +127,7 @@
     font-weight: lighter;
     margin-top: 7px;
 }
+
+.typing {
+    opacity: 0.7;
+}
